@@ -219,6 +219,7 @@ h3.post-title {  background: none repeat scroll 0 0 #F2F2F2; float: left;padding
 .st_pinterest_custom { height:57px; width:57px; background: url("https://lh3.googleusercontent.com/-aNmSn1uWuiE/T4xwceGx9eI/AAAAAAAAJFM/dieNFLbfp-0/s57/Pinterest%2520alt.png") no-repeat scroll left top transparent; display:inline-block; cursor:pointer;}
 .st_buffer_custom { height:57px; width:57px; background: url("https://lh6.googleusercontent.com/-H2sMshY67ZA/Utz2buiZDyI/AAAAAAAAAuM/ie0zX7f-nnI/s64-p/buffer_icon.png") no-repeat scroll left top transparent; display:inline-block; cursor:pointer;}
 .st_digg_custom { height:57px; width:57px; background: url("http://icons.iconarchive.com/icons/danleech/simple/64/digg-icon.png") no-repeat scroll center center transparent; display:inline-block; cursor:pointer;}
+.st_email_custom { height:57px; width:57px; background: url("http://icons.iconarchive.com/icons/hopstarter/sleek-xp-basic/64/Mail-icon.png") no-repeat scroll center center transparent; display:inline-block; cursor:pointer;}
 #lowerbar-wrapper { 
     float: left;       margin: 0px 5px auto; 
     width: 32%;        text-align: justify; 
