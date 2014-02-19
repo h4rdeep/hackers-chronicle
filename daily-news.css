@@ -9,6 +9,9 @@ Description: Main CSS file for Our News Site (portal)
 ----------------------------------------------- */
 @import url('http://fonts.googleapis.com/css?family=Oswald');
 @import url('http://fonts.googleapis.com/css?family=Russo+One');
+@import url('http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700');
+@import url('http://fonts.googleapis.com/css?family=Droid+Sans');
+@import url('http://fonts.googleapis.com/css?family=Ranchers');
 /* Navbar Frame
 ----------------------------- */
 #sidebar .tab_content .widget h2,.navbar {
