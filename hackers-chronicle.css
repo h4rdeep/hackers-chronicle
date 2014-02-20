@@ -362,3 +362,4 @@ img:hover.post-thumbnail  {
 -webkit-transform: scale(1.5);
 transform: scale(1.5);
 }
+.widget-content iframe {margin: -10px -15px;}
