@@ -45,7 +45,7 @@ a img{border-width:0}
     word-wrap: break-word;	
 }
 #footer{width:100%}
-#footer-wrapper{margin:0 auto;width:990px;padding:15px;font-family:Segoe UI,Arial;font-size:12px;background:#00467F}
+#footer-wrapper{margin:0 auto;width:1010px;padding:5px;font-family:Segoe UI,Arial;font-size:12px;background:#00467F}
 .credit{margin:0 auto;padding:10px 5px 30px;width:1010px;font-size:12px;color:#333;line-height:1.6em}
 .botleft{text-align:left;width:360px;float:left}
 .botright{text-align:right;width:510px;float:right}
@@ -230,7 +230,7 @@ h3.post-title {  background:transparent; float: left;margin:0; font-size:20px;}
 }
 .ticker { border: 1px solid #464646;border-radius: 4px;margin-bottom: 10px;padding: 5px; font-size: 14px;background: none repeat scroll 0 0 rgba(0, 0, 0, 0);font-size: 14px;font-weight: normal;}
 .head {
-    background: url("http://4.bp.blogspot.com/-JOvMZJdF4VU/UvZSaiTN2iI/AAAAAAAABAY/TmGEtRMYRVo/s1600/nav_bg.png") repeat-x scroll left top rgba(0, 0, 0, 0);
+    background: url("http://www.exploit-db.com/wp-content/themes/exploit/images/nav-black.png") repeat-x scroll left top rgba(0, 0, 0, 0);
     border-right: 2px solid #222222;
     color: #FFFFFF;
     float: left;
@@ -259,3 +259,24 @@ span.head:after {
     vertical-align: top;
 }
 img.jnbulletbimg {display:none!important;}
+#love {
+    color: #FFFFFF;
+    font-family: "FontAwesome";
+    padding-right: 5px;
+}
+.love {
+    color: #9ACD32;
+    font-family: comic sans ms !important;
+    font-size: 18px;
+}
+
+span#love:before {
+    content: "\f0d1";
+    font-family: FontAwesome;
+    font-size: 40px;
+    vertical-align: sub;
+}
+span#love:after {
+    content: "\f004""\f004";
+    font-size: 17px;
+}
