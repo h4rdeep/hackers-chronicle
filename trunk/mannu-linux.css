@@ -233,9 +233,7 @@ h3.post-title {  background:transparent; float: left;margin:0; font-size:20px;}
     text-align: justify;
     width: 95%;
 }
-.ticker {
-    margin-bottom: 10px;
-}
+.ticker { margin-bottom: 10px; }
 justnaira-srp {
     background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
     border: 1px solid #464646;
@@ -245,9 +243,6 @@ justnaira-srp {
     height: auto;
     padding: 5px;
 }
-.head {
-    color: #FFFFFF;
-    float: left;
-    font-size: 18px;
-    width: 15%;
-}
+.head { color: #FFFFFF;    float: left;    font-size: 18px;    width: 15%;}
+.justnaira-srp a { color: highlight;text-decoration: none;}
+.justnaira-srp a:hover {color: #40E0D0;}
