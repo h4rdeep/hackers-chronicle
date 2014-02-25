@@ -229,7 +229,17 @@ h3.post-title {  background:transparent; float: left;margin:0; font-size:20px;}
     width: 95%;
 }
 .ticker { border: 1px solid #464646;border-radius: 4px;margin-bottom: 10px;padding: 5px; font-size: 14px;background: none repeat scroll 0 0 rgba(0, 0, 0, 0);font-size: 14px;font-weight: normal;}
-.head { color: #FFFFFF;float:left;font-size: 18px;width: 15%; margin-right:0!important; background:url("http://www.exploit-db.com/wp-content/themes/exploit/images/nav_bg.png") repeat-x scroll left top rgba(0, 0, 0, 0)}
+.head {
+    background: url("http://4.bp.blogspot.com/-JOvMZJdF4VU/UvZSaiTN2iI/AAAAAAAABAY/TmGEtRMYRVo/s1600/nav_bg.png") repeat-x scroll left top rgba(0, 0, 0, 0);
+    border-right: 2px solid #222222;
+    color: #FFFFFF;
+    float: left;
+    font-size: 18px;
+    height: 31px;
+    margin: -5px 0 -5px -5px;
+    padding-left: 10px;
+    width: 15%;
+}
 .justnaira-srp a { color: highlight!important;text-decoration: none;}
 .justnaira-srp a:hover {color: #FF5809!important;}
 span.head:after {
@@ -248,3 +258,4 @@ span.head:after {
     padding-right: 4px;
     vertical-align: top;
 }
+img.jnbulletbimg {display:none!important;}
