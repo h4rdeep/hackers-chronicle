@@ -229,6 +229,22 @@ h3.post-title {  background:transparent; float: left;margin:0; font-size:20px;}
     width: 95%;
 }
 .ticker { border: 1px solid #464646;border-radius: 4px;margin-bottom: 10px;padding: 5px; font-size: 14px;background: none repeat scroll 0 0 rgba(0, 0, 0, 0);font-size: 14px;font-weight: normal;}
-.head { color: #FFFFFF;    float: left;    font-size: 18px;    width: 15%;}
-.justnaira-srp a { color: highlight;text-decoration: none;}
-.justnaira-srp a:hover {color: #40E0D0;}
+.head { color: #FFFFFF;float:left;font-size: 18px;width: 15%; margin-right:0!important; background:url("http://www.exploit-db.com/wp-content/themes/exploit/images/nav_bg.png") repeat-x scroll left top rgba(0, 0, 0, 0)}
+.justnaira-srp a { color: highlight!important;text-decoration: none;}
+.justnaira-srp a:hover {color: #FF5809!important;}
+span.head:after {
+    color: #7EE3C7;
+    content:  "\f0a1";
+    font-family: FontAwesome;
+    font-size: 22px;
+    padding-left: 8px;
+    vertical-align: top;
+}
+.justnaira-srp a:before {
+    color: #FFFFFF;
+    content: "\f101";
+    font-family: FontAwesome;
+    font-size: 20px;
+    padding-right: 4px;
+    vertical-align: top;
+}
