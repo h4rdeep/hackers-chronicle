@@ -396,7 +396,7 @@ ul#random-posts {list-style-type: none;padding: 0px;}
 .rp-snippet {padding-bottom: 5px;}
 #random-posts span {}
 #random-posts li {padding: 3px;}
-#stickywidget {
+.stickywidget {
 	 background-color: #FAFAFA;
     border-color: #D5D5D5 #D5D5D5 #3D5A99;
     border-image: none;
