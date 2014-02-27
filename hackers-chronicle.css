@@ -379,7 +379,6 @@ transform: scale(1.5);
 	transition: all 0.2s linear 0s;	
 }
 #random-posts img:hover{
-	opacity: 0.6;
 	-webkit-filter:saturate(100%)sepia(0%);
 	-moz-filter:saturate(100%)sepia(0%);
 	-o-filter:saturate(100%)sepia(0%);
@@ -396,4 +395,4 @@ ul#random-posts {list-style-type: none;padding: 0px;}
 #random-posts a:hover {text-decoration: none;}
 .rp-snippet {padding-bottom: 5px;}
 #random-posts span {}
-#random-posts li {margin-bottom: 10px;border-bottom: 1px solid #EEEEEE; padding: 4px;}
+#random-posts li {padding: 3px;}
