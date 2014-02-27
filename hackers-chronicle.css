@@ -363,3 +363,37 @@ img:hover.post-thumbnail  {
 transform: scale(1.5);
 }
 .widget-content iframe {margin: -10px -15px;}
+#random-posts img{
+	-webkit-filter:saturate(50%)sepia(50%);
+	-moz-filter:saturate(50%)sepia(50%);
+	-o-filter:saturate(50%)sepia(50%);
+	-ms-filter:saturate(50%)sepia(50%);
+	filter:saturate(50%)sepia(50%);
+	border-radius: 5px;
+	box-shadow: 1px 1px 3px rgba(0,0,0,0.6);
+	padding:0!important;
+	margin-right:2px;
+	float:left;
+	width:75px;
+	height:75px;
+	transition: all 0.2s linear 0s;	
+}
+#random-posts img:hover{
+	opacity: 0.6;
+	-webkit-filter:saturate(100%)sepia(0%);
+	-moz-filter:saturate(100%)sepia(0%);
+	-o-filter:saturate(100%)sepia(0%);
+	-ms-filter:saturate(100%)sepia(0%);
+	filter:saturate(100%)sepia(0%);
+	-webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+ul#random-posts {list-style-type: none;padding: 0px;}
+#random-posts a {font-size: 12px;text-transform:uppercase; padding: 0px auto 5px;}
+#random-posts a:hover {text-decoration: none;}
+.rp-snippet {font-size: 11px;background: none; padding: 5px; margin-right: 8px;}
+#random-posts span {}
+#random-posts li {margin-bottom: 10px;border-bottom: 1px solid #EEEEEE; padding: 4px;}
