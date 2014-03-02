@@ -407,4 +407,4 @@ ul#random-posts {list-style-type: none;padding: 0px;}
 	display:none;
 	width:inherit;
 }
-#stickywidget h2 {margin-top: 0;}
+#stickywidget h2 {margin-top: 0!important;}
