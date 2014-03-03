@@ -34,38 +34,38 @@ numposts9 = 9;
 numposts10 = 15;
 numposts11 = 12;
 
-label1 = "breakingnews";
-Title1 = "Regional";
+label1 = "Current";
+Title1 = "CURRENT AFFAIRS";
 
-label2 = "Feature";
-Title2 = "LATEST NEWS";
+label2 = "Entertainment";
+Title2 = "ENTERTAINMENT";
 
-label3 = "Gear";
-Title3 = "Slider";
+label3 = "Sports";
+Title3 = "SPORTS";
 
-label4 = "Mine";
-Title4 = "THE EVENTS";
+label4 = "Business";
+Title4 = "BUSINESS";
 
-label5 = "europe";
-Title5 = "EURO LINE";
+label5 = "Science";
+Title5 = "SCIENCE & Technology";
 
-label6 = "TopDownload";
-Title6 = "TopDownload";
+label6 = "Health";
+Title6 = "HEALTH";
 
-label7 = "asia";
-Title7 = "ASIA";
+label7 = "Style";
+Title7 = "LIFE STYLE";
 
-label8 = "human";
-Title8 = "HUMAN";
+label8 = "Exclusive";
+Title8 = "EXCLUSIVE STORIES";
 
-label9 = "Favourite";
-Title9 = "Favourite";
+label9 = "India";
+Title9 = "INDIA";
 
-label10 = "Gear";
-Title10 = "Gear";
+label10 = "Movies";
+Title10 = "MOVIES";
 
-label11 = "Browser";
-Title11 = "Browser";
+label11 = "Cricket";
+Title11 = "CRICKET";
 
 function removeHtmlTag(strx,chop){
 	var s = strx.split("<");
