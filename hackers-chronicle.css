@@ -23,7 +23,7 @@ a img{border-width:0}
 #outer-wrapper{background:transparent;font-family:Segoe UI,Arial;font-size:100%;font-size-adjust:none;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:normal;line-height:normal;margin:0 auto;padding-top:0;text-align:left;width:1020px}
 #main-wrapper{float:left;font-size:100%;overflow:hidden;width:704px;word-wrap:break-word; background:#FFFFFF repeat 0 0 none;}
 #footer{width:100%}
-#footer-wrapper{margin:0 auto;width:990px;padding:15px;font-family:Segoe UI,Arial;font-size:12px;background:#00467F}
+#footer-wrapper{margin:0 auto;width:990px;padding:0 10px;font-family:'Open Sans',sans-serif;font-size:12px;border: 3px solid #00467F;font-weight: 500;}
 .credit{margin:0 auto;padding:10px 5px 30px;width:1010px;font-size:12px;color:#333;line-height:1.6em}
 .botleft{text-align:left;width:360px;float:left}
 .botright{text-align:right;width:510px;float:right}
@@ -222,7 +222,7 @@ h3.post-title {  background: none repeat scroll 0 0 #F2F2F2; float: left;padding
 .st_email_custom { height:57px; width:57px; background: url("http://icons.iconarchive.com/icons/harwen/simple/64/E-mail-icon.png") no-repeat scroll center center transparent; display:inline-block; cursor:pointer;}
 #lowerbar-wrapper { 
     float: left;       margin: 0px 5px auto; 
-    width: 32%;        text-align: justify; 
+    width: 32%;        text-align: left; 
     font-size:100%;    line-height: 1.6em; 
     word-wrap: break-word;  overflow: hidden; 
 } 
@@ -406,3 +406,40 @@ ul#random-posts {list-style-type: none;padding: 0px;}
 	width:inherit;
 }
 #stickywidget h2 {margin-top: 0!important;}
+#footer-wrapper h2 {
+    border: 0 none;
+    color: currentcolor;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+.btn-primary {
+    background-color: #006DCC;
+    background-image: linear-gradient(to bottom, #0088CC, #0044CC);
+    background-repeat: repeat-x;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    color: #FFFFFF;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+.btn {
+	border-image: none;
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset, 0 1px 2px rgba(0, 0, 0, 0.05);
+	cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 0;
+    padding: 4px 12px;
+    text-align: center;
+	vertical-align: middle;
+}
+input, button, select, textarea {font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;}
+#lowerbar3 {margin-left: 16px;}
+#lowerbar3 h2:before {
+    background: url("http://jquery-plugins.net/image/social/feedburner.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    content: "";
+    padding-bottom:0 16px 5px 21px;
+}
