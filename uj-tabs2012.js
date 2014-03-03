@@ -1,3 +1,11 @@
+/*-----------------------------------------------
+Theme Name: Daily Times
+Designer : Hardeep Singh
+Created: Feb, 2014
+Theme URI: http://hackerschronicle.com
+Author: Hardeep Singh
+Author URI: http://hackerschronicle.com
+----------------------------------------------- */
 jQuery(document).ready(function(){
 
 	// UL = .Uj-Tabs
