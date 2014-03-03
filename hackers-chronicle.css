@@ -451,7 +451,7 @@ input, button, select, textarea {font-family: "Helvetica Neue",Helvetica,Arial,s
     vertical-align: bottom;
 }
 .label-size {
-    background-color: #F9F9F9;
+    background-color: #fff;
     border: 1px solid #D8D8D8;
     border-radius: 4px;
     font-size: 11px !important;
@@ -460,5 +460,8 @@ input, button, select, textarea {font-family: "Helvetica Neue",Helvetica,Arial,s
     margin-bottom: 3px;
     margin-right: 3px;
     text-transform: uppercase;
-	padding: 1px;
+	padding: 5	px;
+	display: inline-block;
 }
+.label-size a {color: #000D2E;}
+.cloud-label-widget-content { text-align: inherit!important;}
