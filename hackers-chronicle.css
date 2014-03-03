@@ -23,7 +23,7 @@ a img{border-width:0}
 #outer-wrapper{background:transparent;font-family:Segoe UI,Arial;font-size:100%;font-size-adjust:none;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:normal;line-height:normal;margin:0 auto;padding-top:0;text-align:left;width:1020px}
 #main-wrapper{float:left;font-size:100%;overflow:hidden;width:704px;word-wrap:break-word; background:#FFFFFF repeat 0 0 none;}
 #footer{width:100%}
-#footer-wrapper{margin:0 auto;width:990px;padding:0 10px;font-family:'Open Sans',sans-serif;font-size:12px;border: 3px solid #00467F;font-weight: 500;}
+#footer-wrapper{margin:0 auto;width:990px;padding:0 10px 13px;font-family:'Open Sans',sans-serif;font-size:12px;border: 3px solid #00467F;font-weight: 500;position: relative;z-index: 9999;background: none repeat scroll 0 0 #E7EBF2;}
 .credit{margin:0 auto;padding:10px 5px 30px;width:1010px;font-size:12px;color:#333;line-height:1.6em}
 .botleft{text-align:left;width:360px;float:left}
 .botright{text-align:right;width:510px;float:right}
@@ -443,11 +443,22 @@ input, button, select, textarea {font-family: "Helvetica Neue",Helvetica,Arial,s
     content: "";
     padding:0 16px 5px 21px;
 }
-
 .form-inline input  {
     border: 1px solid #F2F2F2;
     border-radius: 3px;
     display: inline-block;
     padding: 6px;
     vertical-align: bottom;
+}
+.label-size {
+    background-color: #F9F9F9;
+    border: 1px solid #D8D8D8;
+    border-radius: 4px;
+    font-size: 11px !important;
+    font-weight: 400;
+    line-height: 1.2;
+    margin-bottom: 3px;
+    margin-right: 3px;
+    text-transform: uppercase;
+	padding: 1px;
 }
