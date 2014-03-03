@@ -460,7 +460,7 @@ input, button, select, textarea {font-family: "Helvetica Neue",Helvetica,Arial,s
     margin-bottom: 3px;
     margin-right: 3px;
     text-transform: uppercase;
-	padding: 5	px;
+	padding: 4px;
 	display: inline-block;
 }
 .label-size a {color: #000D2E;}
