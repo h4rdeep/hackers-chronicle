@@ -1,3 +1,11 @@
+/*-----------------------------------------------
+Theme Name: Daily Times
+Designer : Hardeep Singh
+Created: Feb, 2014
+Theme URI: http://hackerschronicle.com
+Author: Hardeep Singh
+Author URI: http://hackerschronicle.com
+----------------------------------------------- */
 ;(function($){var style=document.createElement('div').style,moz=style['MozBorderRadius']!==undefined,webkit=style['WebkitBorderRadius']!==undefined,radius=style['borderRadius']!==undefined||style['BorderRadius']!==undefined,mode=document.documentMode||0,noBottomFold=$.browser.msie&&(($.browser.version<8&&!mode)||mode<8),expr=$.browser.msie&&(function(){var div=document.createElement('div');try{div.style.setExpression('width','0+0');div.style.removeExpression('width');}
 catch(e){return false;}
 return true;})();$.support=$.support||{};$.support.borderRadius=moz||webkit||radius;function sz(el,p){return parseInt($.css(el,p))||0;};function hex2(s){var s=parseInt(s).toString(16);return(s.length<2)?'0'+s:s;};function gpc(node){while(node){var v=$.css(node,'backgroundColor'),rgb;if(v&&v!='transparent'&&v!='rgba(0, 0, 0, 0)'){if(v.indexOf('rgb')>=0){rgb=v.match(/\d+/g);return'#'+ hex2(rgb[0])+ hex2(rgb[1])+ hex2(rgb[2]);}
