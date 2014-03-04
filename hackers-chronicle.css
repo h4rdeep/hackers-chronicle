@@ -22,9 +22,9 @@ a img{border-width:0}
 #header-qc {float:right; width:480px;height:68px;margin: 67px 0 0 0}
 #outer-wrapper{background:transparent;font-family:Segoe UI,Arial;font-size:100%;font-size-adjust:none;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:normal;line-height:normal;margin:0 auto;padding-top:0;text-align:left;width:1020px}
 #main-wrapper{float:left;font-size:100%;overflow:hidden;width:704px;word-wrap:break-word; background:#FFFFFF repeat 0 0 none;}
-#footer{width:100%}
-#footer-wrapper{margin:0 auto;width:990px;padding:0 10px 13px;font-family:'Open Sans',sans-serif;font-size:12px;border: 3px solid #00467F;font-weight: 500;position: relative;z-index: 9999;background: none repeat scroll 0 0 #E7EBF2;}
-.credit{margin:0 auto;padding:10px 5px 30px;width:1010px;font-size:12px;color:#333;line-height:1.6em}
+#footer{width:100%; background: none repeat scroll 0 0 #E7EBF2; position: relative;z-index: 9999; }
+#footer-wrapper{margin:0 auto;width:990px;padding:0 10px 13px;font-family:'Open Sans',sans-serif;font-size:12px;border: 3px solid #00467F;font-weight: 500;}
+.credit{margin:0 auto;padding:10px 5px 30px;width:1010px;font-size:12px;color:#333;line-height:1.6em;background: none repeat scroll 0 0 #E7EBF2;position: relative;z-index: 9999;}
 .botleft{text-align:left;width:360px;float:left}
 .botright{text-align:right;width:510px;float:right}
 .main .widget{margin:0 0 1em;padding:0 0 1em}
