@@ -115,16 +115,16 @@ h6 { font-size:12px; }
 .panes .widget_recent_comments li { line-height:1.6em !important; padding-bottom: 12px !important; }
 .panes .widgettitle_in {margin:0 0 7px;font:bold 14px sans-serif;display:block; }
 	/*----- [[ Tab color scheme: light ]] -----*/
-	.tabs-wrapper {color:#222}
-	.tabs-wrapper .tabs {border-bottom:1px solid #cfcfcf;margin:0}
-	.tabs-wrapper .tabs a { background: none #F2F2F2  !important;border:1px solid #cfcfcf!important;color:#222 !important; font: 13px/32px 'Russo One', sans-serif; }
-	.tabs-wrapper .tabs a:hover {color:#222;}
-	.tabs-wrapper .tabs .current, .tabs .current:hover, .tabs li.active a {background-color:#fff !important;color:#222 !important;border-bottom:none!important;}
-	.tabs-wrapper .tabs_container .tab_content{background-color:#fff!important;border:1px solid #cfcfcf !important;border-top:none!important;padding:5px;}
-	.tabs-wrapper .tabs_container  li {border-bottom:1px dotted #efefef !important}
-	.tabs-wrapper .tabs_container  li  a {color:#555;font-weight:bold;line-height:1.5em;padding-bottom:10px;}
-	.tabs-wrapper .tabs_container .PopularPosts img{height:40px;}
-.tabs-wrapper .tabs_container .widget h2{visibility:hidden;display: none;}
+	#tabs-wrapper {color:#222}
+	#tabs-wrapper .tabs {border-bottom:1px solid #cfcfcf;margin:0}
+	#tabs-wrapper .tabs a { background: none #F2F2F2  !important;border:1px solid #cfcfcf!important;color:#222 !important; font: 13px/32px 'Russo One', sans-serif; }
+	#tabs-wrapper .tabs a:hover {color:#222;}
+	#tabs-wrapper .tabs .current, .tabs .current:hover, .tabs li.active a {background-color:#fff !important;color:#222 !important;border-bottom:none!important;}
+	#tabs-wrapper .tabs_container .tab_content{background-color:#fff!important;border:1px solid #cfcfcf !important;border-top:none!important;padding:5px;}
+	#tabs-wrapper .tabs_container  li {border-bottom:1px dotted #efefef !important}
+	#tabs-wrapper .tabs_container  li  a {color:#555;font-weight:bold;line-height:1.5em;padding-bottom:10px;}
+	#tabs-wrapper .tabs_container .PopularPosts img{height:40px;}
+#tabs-wrapper .tabs_container .widget h2{visibility:hidden;display: none;}
 #sidebar .widget h2{display:block;font: 18px Oswald;margin-bottom:7px;background:url(http://2.bp.blogspot.com/-Kb4Tc_9bNAY/UI-7ivC2PFI/AAAAAAAACmc/UWm8gT766Q8/s1600/bg_catname.png) no-repeat bottom left;border-bottom:1px solid #eee;overflow:hidden;padding:2px 4px 5px; text-transform:uppercase;}
 	
 /*----- [[ About Widget ]] -----*/
@@ -780,7 +780,7 @@ div.scrollingtext{
 /*-----  INNER PAGE LAYOUTS -----*/
 #containair {display:block;overflow:hidden}
 	#sidebar {float:right;width:300px}
-	#content {width:640px;float:left;border-right:1px dotted #ddd;margin-right:10px;padding-right:9px} 
+	#content {width:690px;float:left;border-right:1px dotted #ddd;margin-right:10px;padding-right:9px} 
 	#content .content {width:640px;float:left;border-right:1px dotted #ddd;margin-right:10px;padding-right:9px}
 	
 	/* Postmeta displayed on single post page, below entry */
