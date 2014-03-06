@@ -470,4 +470,6 @@ input, button, select, textarea {font-family: "Helvetica Neue",Helvetica,Arial,s
 .fixed{ 
 	position: fixed;
     top: 0;
+	width:300px;
 }
+.fixed h2 {margin-top: 0!important;}
