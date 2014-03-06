@@ -52,7 +52,7 @@ Title5 = "SCIENCE & Technology";
 label6 = "Health";
 Title6 = "HEALTH";
 
-label7 = "Style";
+label7 = "Lifestyle";
 Title7 = "LIFE STYLE";
 
 label8 = "Exclusive";
