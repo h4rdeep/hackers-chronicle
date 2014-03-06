@@ -397,16 +397,13 @@ ul#random-posts {list-style-type: none;padding: 0px;}
 .rp-snippet {padding-bottom: 5px;}
 #random-posts span {}
 #random-posts li {padding: 3px;}
-#stickywidget {
-	background-color: #E7EBF2;
+.stickywidget {
 	border-bottom: solid 3px #3D5A99;
     position: fixed;
     top: 0;
-    z-index: 9999;
-	display:none;
-	width:inherit;
+	width:300px;
 }
-#stickywidget h2 {margin-top: 0!important;}
+.stickywidget h2 {margin-top: 0!important;}
 #footer-wrapper h2 {
     border: 0 none;
     color: currentcolor;
@@ -467,9 +464,3 @@ input, button, select, textarea {font-family: "Helvetica Neue",Helvetica,Arial,s
 .label-size a {color: #000D2E;}
 .label-size a:hover{color: #FF0084;}
 .cloud-label-widget-content { text-align: inherit!important;}
-.fixed{ 
-	position: fixed;
-    top: 0;
-	width:300px;
-}
-.fixed h2 {margin-top: 0!important;}
