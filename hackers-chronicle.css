@@ -404,6 +404,7 @@ ul#random-posts {list-style-type: none;padding: 0px;}
 	width:300px;
 }
 .stickywidget h2 {margin-top: 0!important;}
+.stickywidget > .widget-content { margin: 0;}
 #footer-wrapper h2 {
     border: 0 none;
     color: currentcolor;
