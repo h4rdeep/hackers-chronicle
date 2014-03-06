@@ -5,7 +5,8 @@ Website URI: http://hackerschronicle.com
 Version: 1.0
 Author: Hardeep Singh (cyb3r.gladiat0r)
 ----------------------------------------------- */
-@import "http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css";
+@import url(http://fonts.googleapis.com/css?family=Ubuntu);
+@import url(http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
 #navbar-iframe, .date-header {display:none !important}
 
 body{-moz-background-clip:border;-moz-background-inline-policy:continuous;-moz-background-origin:padding;background: none repeat scroll 0 0 #E7EBF2;color:#333;font-family:Segoe UI,Arial,Tahoma;font-size:14px;font-size-adjust:none;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:normal;line-height:normal;margin:0;text-align:center}
@@ -466,3 +467,7 @@ input, button, select, textarea {font-family: "Helvetica Neue",Helvetica,Arial,s
 .label-size a {color: #000D2E;}
 .label-size a:hover{color: #FF0084;}
 .cloud-label-widget-content { text-align: inherit!important;}
+.fixed{ 
+	position: fixed;
+    top: 0;
+}
