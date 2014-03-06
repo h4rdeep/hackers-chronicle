@@ -61,7 +61,7 @@ Title8 = "EXCLUSIVE STORIES";
 label9 = "India";
 Title9 = "INDIA";
 
-label10 = "Movies";
+label10 = "MOVIES";
 Title10 = "MOVIES";
 
 label11 = "Cricket";
