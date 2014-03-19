@@ -334,13 +334,13 @@ a.bclagi {color:#fff;background:#f76c3a;margin:10px 0;display:block;width:100px;
 .postmeta a{}
 .postmeta a:hover {text-decoration:underline;}
 
-.catname.Honeydew {background: Honeydew;}
-.catname.AliceBlue {background: AliceBlue;}
-.catname.GhostWhite {background: GhostWhite;}
-.catname.Beige {background: Beige;}
-.catname.Linen {background: Linen;}
-.catname.Cornsilk {background: Cornsilk;}
-.catname.Seashell {background: Seashell;}
+.catname.Honeydew {background: #A6D682;}
+.catname.AliceBlue {background: #9CD5E6;}
+.catname.GhostWhite {background: #A2FFFF;}
+.catname.Beige {background: #FF9F50;}
+.catname.Linen {background: #FEEAE4;}
+.catname.Cornsilk {background: #FFDF8C;}
+.catname.Seashell {background: #F1B7A6;}
 
 .catname {display:block;font: bold 13px Arial, Helvetica,Sans-serif;margin-bottom:7px;border-bottom:1px dotted #eee;overflow:hidden;padding:3px 4px;}
 .catname span {float:left;width:auto;}
