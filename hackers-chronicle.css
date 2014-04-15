@@ -465,3 +465,4 @@ input, button, select, textarea {font-family: "Helvetica Neue",Helvetica,Arial,s
 .label-size a {color: #000D2E;}
 .label-size a:hover{color: #FF0084;}
 .cloud-label-widget-content { text-align: inherit!important;}
+#HTML6 > .widget-content { padding: 0;}
